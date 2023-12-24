@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="32dp"
+    tools:context=".MainActivity"
+    android:background="@color/mainBackground">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_weight="1">
+        <TextView
+                android:id="@+id/scoreLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Attempts:  "
+                android:textSize="24sp"
+                android:textColor="@color/standardText"/>
+        <TextView
+            android:id="@+id/score"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="24sp"
+            android:textColor="@color/standardText"/>
+    </LinearLayout>
+
+    <TableLayout
+        android:id="@+id/memoryTable"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="4"
+        android:padding="16dp">
+        <TableRow android:background="@color/tableBackground">
+            <Button
+                    android:id="@+id/b0"
+                    android:layout_width="0dp"
+                    android:layout_height="72dp"
+                    android:layout_weight="1" android:textSize="24sp"/>
+            <Button
+                    android:id="@+id/b1"
+                    android:layout_width="0dp"
+                    android:layout_height="72dp"
+                    android:layout_weight="1" android:textSize="24sp"/>
+            <Button
+                    android:id="@+id/b2"
+                    android:layout_width="0dp"
+                    android:layout_height="72dp"
+                    android:layout_weight="1" android:textSize="24sp"/>
+            <Button
+                    android:id="@+id/b3"
+                    android:layout_width="0dp"
+                    android:layout_height="72dp"
+                    android:layout_weight="1" android:textSize="24sp"/>
+        </TableRow>
+        <TableRow android:background="@color/tableBackground">
+            <Button
+                    android:id="@+id/b4"
+                    android:layout_width="0dp"
+                    android:layout_height="72dp"
+                    android:layout_weight="1" android:textSize="24sp"/>
+            <Button
+                    android:id="@+id/b5"
+                    android:layout_width="0dp"
+                    android:layout_height="72dp"
+                    android:layout_weight="1" android:textSize="24sp"/>
+            <Button
+                    android:id="@+id/b6"
+                    android:layout_width="0dp"
+                    android:layout_height="72dp"
+                    android:layout_weight="1" android:textSize="24sp"/>
+            <Button
+                    android:id="@+id/b7"
+                    android:layout_width="0dp"
+                    android:layout_height="72dp"
+                    android:layout_weight="1" android:textSize="24sp"/>
+        </TableRow>
+        <TableRow android:background="@color/tableBackground">
+            <Button
+                    android:id="@+id/b8"
+                    android:layout_width="0dp"
+                    android:layout_height="72dp"
+                    android:layout_weight="1" android:textSize="24sp"/>
+            <Button
+                    android:id="@+id/b9"
+                    android:layout_width="0dp"
+                    android:layout_height="72dp"
+                    android:layout_weight="1" android:textSize="24sp"/>
+            <Button
+                    android:id="@+id/b10"
+                    android:layout_width="0dp"
+                    android:layout_height="72dp"
+                    android:layout_weight="1" android:textSize="24sp"/>
+            <Button
+                    android:id="@+id/b11"
+                    android:layout_width="0dp"
+                    android:layout_height="72dp"
+                    android:layout_weight="1" android:textSize="24sp"/>
+        </TableRow>
+        <TableRow android:background="@color/tableBackground">
+            <Button
+                    android:id="@+id/b12"
+                    android:layout_width="0dp"
+                    android:layout_height="72dp"
+                    android:layout_weight="1" android:textSize="24sp"/>
+            <Button
+                    android:id="@+id/b13"
+                    android:layout_width="0dp"
+                    android:layout_height="72dp"
+                    android:layout_weight="1" android:textSize="24sp"/>
+            <Button
+                    android:id="@+id/b14"
+                    android:layout_width="0dp"
+                    android:layout_height="72dp"
+                    android:layout_weight="1" android:textSize="24sp"/>
+            <Button
+                    android:id="@+id/b15"
+                    android:layout_width="0dp"
+                    android:layout_height="72dp"
+                    android:layout_weight="1" android:textSize="24sp"/>
+        </TableRow>
+    </TableLayout>
+
+</LinearLayout>

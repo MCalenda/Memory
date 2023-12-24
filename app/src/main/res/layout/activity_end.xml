@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              tools:context=".End"
+              android:background="@color/mainBackground"
+              android:padding="64dp"
+              android:orientation="vertical">
+
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="162dp"
+            android:text="You completed Memory in"
+            android:textSize="24dp"
+            android:textColor="@color/standardText"
+    />
+    <TextView
+            android:id="@+id/score"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="64dp"
+            android:textColor="@color/standardText"
+            android:layout_gravity="center"
+    />
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="attempts"
+            android:textSize="24dp"
+            android:layout_gravity="center"
+            android:textColor="@color/standardText"
+    />
+
+</LinearLayout>
